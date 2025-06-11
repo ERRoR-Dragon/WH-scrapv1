@@ -1,7 +1,7 @@
 <template>
   <div class="login-container">
     <div class="login-card">
-      <h1>Welcome Back</h1>
+      <h1>WreckHavoc</h1>
       <p>Sign in to your account</p>
       
       <div v-if="error" class="error-message">
@@ -78,12 +78,12 @@ export default {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: bisque ;
   padding: 20px;
 }
 
 .login-card {
-  background: white;
+  background: tan;
   padding: 3rem;
   border-radius: 15px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
@@ -119,13 +119,13 @@ export default {
   gap: 10px;
   width: 100%;
   padding: 1rem;
-  background: white;
+  background: saddlebrown;
   border: 2px solid #ddd;
   border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 500;
-  color: #333;
+  color: white;
   transition: all 0.2s ease;
 }
 

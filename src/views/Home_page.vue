@@ -2,9 +2,9 @@
   <div class="home">
     <div class="hero-section">
       <h1>Welcome, {{ userName }}!</h1>
-      <p>You have successfully logged in to your dashboard.</p>
+      <p>This is the home page of WreckHavoc</p>
       
-      <div class="user-info">
+     <!-- <div class="user-info">
         <img 
           v-if="user.photoURL" 
           :src="user.photoURL" 
@@ -20,6 +20,7 @@
       <button @click="signOut" class="sign-out-btn">
         Sign Out
       </button>
+    -->
     </div>
   </div>
 </template>
@@ -65,6 +66,7 @@ export default {
 <style scoped>
 .home {
   padding: 2rem;
+  background: black;
 }
 
 .hero-section {
@@ -75,13 +77,14 @@ export default {
 }
 
 .hero-section h1 {
-  color: #333;
+  color: yellow;
   margin-bottom: 1rem;
+  font-family :Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2.5rem;
 }
 
 .hero-section p {
-  color: #666;
+  color: yellow;
   margin-bottom: 2rem;
   font-size: 1.1rem;
 }

@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="nav-container">
       <router-link to="/" class="nav-brand">
-        My App
+        WreckHavoc
       </router-link>
       
       <div class="nav-menu">
@@ -78,7 +78,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background: #fff;
+  background: black;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -98,7 +98,7 @@ export default {
 .nav-brand {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #333;
+  color: lightcoral;
   text-decoration: none;
 }
 
@@ -109,7 +109,7 @@ export default {
 }
 
 .nav-link {
-  color: #666;
+  color: lightcoral;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -119,7 +119,7 @@ export default {
 .nav-link:hover,
 .nav-link.active {
   color: #333;
-  background: #f8f9fa;
+  background: lightcoral;
 }
 
 .user-menu {
@@ -137,7 +137,7 @@ export default {
 }
 
 .nav-username {
-  color: #333;
+  color: lightcoral;
   font-weight: 500;
 }
 
